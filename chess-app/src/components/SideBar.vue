@@ -1,6 +1,6 @@
 <template>
     <div id="sidebar">
-      <ul class="selected-squares">
+      <ul class="selected">
         <div class="row">
           <li v-bind:key="selectedSquare" v-for="selectedSquare of selectedSquares">{{ selectedSquare }}</li>
         </div>
@@ -19,19 +19,20 @@ export default {
 
 <style>
 #sidebar {
-  height: calc(80vh - 40px);
+  height: calc(100vh - 40px);
   width: 35vw;
-  max-width: 250px;
-  max-height: 700px;
-  margin-top: 15px;
-  margin-bottom: 0%;
+  max-width: 450px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: #36454F;
   overflow: scroll;
   font-weight: bold;
   flood-color: rgb(5, 0, 0);
 }
 
-.selected-squares {
+.selected {
   color: #050505;
   list-style-type: none;
   display: contents;
@@ -72,7 +73,7 @@ li {
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   li {
     flex-basis: 25%; /* Increase number of items per row on larger screens */
-    font-size: 16px; /* Larger font size for tablets and small desktops */
+    font-size: 20px; /* Larger font size for tablets and small desktops */
   }
 }
 </style>

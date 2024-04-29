@@ -62,9 +62,9 @@ body {
 }
 
 .flex-container {
- display: flex;
  position: absolute;
- justify-content: flex-start;
+ display: flex;
+ justify-content: flex-end;
  align-items: center;
  height: 100%;
  width: 100%;
