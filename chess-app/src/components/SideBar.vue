@@ -21,10 +21,11 @@ export default {
 #sidebar {
   height: calc(100vh - 40px);
   width: 35vw;
-  max-width: 500px;
+  max-width: 400px;
   margin:10px;
   background-color: #36454F;
   overflow: scroll;
+  border-radius: 3px;
   font-weight: bold;
   flood-color: rgb(5, 0, 0);
 }
@@ -45,12 +46,12 @@ export default {
 }
 
 li {
-  flex-basis: 50px;
+  flex-basis: (20%-5px)
 }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
   #sidebar {
-    height: 25vh; /* Small change to height for a better aspect ratio */
+    height: 25vh; 
     width: 95vw; /* Full width for better use of space on small screens */
     max-width: 95vw;
     overflow-y: scroll; /* 'auto' only shows scrollbar when needed */
@@ -68,7 +69,7 @@ li {
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
   li {
     flex-basis: 30%; /* Increase number of items per row on larger screens */
   }
