@@ -2,7 +2,7 @@
 
 
 Live Demo of project:
-https://frontendtest-chess-praqpkztb-jaydenwituckis-projects.vercel.app](https://frontendtest-i9rc.onrender.com
+https://frontendtest-i9rc.onrender.com
 
 Welcome to the [Chess.com](https://chess.com) front end programming challenge!
 
