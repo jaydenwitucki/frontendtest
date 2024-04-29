@@ -21,7 +21,7 @@ export default {
 #sidebar {
   height: calc(100vh - 40px);
   width: 35vw;
-  max-width: 450px;
+  max-width: 700px;
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: 10px;
