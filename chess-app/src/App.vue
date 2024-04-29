@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <PlayerInfo :player= "playerData" />
+    <!-- <PlayerInfo :player= "playerData" /> -->
      <div class="flex-container">
         <ChessBoard v-on:handleSquareClick="storeSelectedSquares($event)"/>
         <SideBar v-bind:selected-squares="selectedSquares"/>
@@ -12,7 +12,7 @@
 
 <script>
 import ChessBoard from './components/ChessBoard.vue'
-import PlayerInfo from './components/PlayerInfo.vue';
+//import PlayerInfo from './components/PlayerInfo.vue';
 import SideBar from './components/SideBar.vue'
 
 
@@ -21,17 +21,17 @@ export default {
   components: {
     ChessBoard,
     SideBar,
-    PlayerInfo,
+    //PlayerInfo,
 },
   data(){
     return {
       selectedSquares:[],
-      playerData: {
-        name: 'Mittens',
-        rating: '500',
-        title: 'USA',
-        avatar: '/meow.jpg', 
-      },
+      //playerData: {
+        //name: 'Mittens',
+        //rating: '500',
+        //title: 'USA',
+        //avatar: '/meow.jpg', 
+      //},
     };
   },
   methods: {
