@@ -54,7 +54,7 @@ body {
 }
 #app {
   font-family: 'Times New Roman', Times, serif;
-  text-align: align-self;
+  text-align: center;
   font-weight: bold;
   color: #000000;
   margin-bottom: 0;
