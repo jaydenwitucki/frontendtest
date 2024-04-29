@@ -21,11 +21,8 @@ export default {
 #sidebar {
   height: calc(100vh - 40px);
   width: 35vw;
-  max-width: 700px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
+  max-width: 500px;
+  margin:10px;
   background-color: #36454F;
   overflow: scroll;
   font-weight: bold;
@@ -43,14 +40,15 @@ export default {
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
-  padding: 10px
+  width: 100%;
+  padding: 10px 5px 10px 5px;
 }
 
 li {
   flex-basis: 50px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
   #sidebar {
     height: 25vh; /* Small change to height for a better aspect ratio */
     width: 95vw; /* Full width for better use of space on small screens */
@@ -72,8 +70,8 @@ li {
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   li {
-    flex-basis: 25%; /* Increase number of items per row on larger screens */
-    font-size: 20px; /* Larger font size for tablets and small desktops */
+    flex-basis: 30%; /* Increase number of items per row on larger screens */
   }
 }
 </style>
+
