@@ -52,28 +52,24 @@ li {
 @media only screen and (max-width: 600px) {
   #sidebar {
     height: 25vh; /* Small change to height for a better aspect ratio */
-    width: 100%; /* Full width for better use of space on small screens */
-    overflow-y: auto; /* 'auto' only shows scrollbar when needed */
+    width: 95vw; /* Full width for better use of space on small screens */
+    max-width: 95vw;
+    overflow-y: scroll; /* 'auto' only shows scrollbar when needed */
+    overflow-x:hidden;
   }
 
   .row {
-    margin: 0 10px; /* Adding margin instead of reducing width for padding */
+    width: calc(95vw - 20px)
   }
 
   li {
-    flex-basis: 50%; /* Easier to tap with larger area on small screens */
-    font-size: 14px; /* Slightly larger font for better readability */
-    padding: 10px; /* Add padding for touch friendliness */
+    flex-basis: 15%; 
+    font-size: 12px; 
+    padding: 5px;
   }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-  #sidebar {
-    height: auto; /* Let the content determine the height */
-    width: 50vw; /* Utilize more screen real estate on larger devices */
-    padding: 10px; /* Add some internal space */
-  }
-
   li {
     flex-basis: 25%; /* Increase number of items per row on larger screens */
     font-size: 16px; /* Larger font size for tablets and small desktops */
