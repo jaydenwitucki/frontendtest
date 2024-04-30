@@ -133,21 +133,6 @@ width: 100%;
 height: 100%;
 }
 
-.top-left {
-border-top-left-radius: 3px;
-}
-
-.top-right {
-border-top-right-radius: 3px;
-}
-
-.bottom-left {
-border-bottom-left-radius: 3px;
-}
-
-.bottom-right {
-border-bottom-right-radius: 3px;
-}
 
 #chessboard {
 display: flex;

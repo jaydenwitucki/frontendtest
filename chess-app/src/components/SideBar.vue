@@ -46,7 +46,7 @@ export default {
 }
 
 li {
-  flex-basis: (20%-5px)
+  flex: 0 1 calc(30% - 5px)
 }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
@@ -59,7 +59,7 @@ li {
   }
 
   .row {
-    width: calc(95vw - 20px)
+    width: calc(95vw - 30px)
   }
 
   li {
