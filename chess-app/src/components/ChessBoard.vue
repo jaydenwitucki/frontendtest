@@ -150,11 +150,11 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
-#chessboard {
-  width: 95vw;
-  height: 95vw;
-  margin: 10px 0 0 0;
-}
+  #chessboard {
+    width: 95vw;
+    height: 95vw;
+    margin: 10px 0 0 0;
+  }
 }
 </style>
 

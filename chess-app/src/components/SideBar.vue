@@ -27,7 +27,6 @@ export default {
   overflow: scroll;
   border-radius: 3px;
   font-weight: bold;
-  flood-color: rgb(5, 0, 0);
 }
 
 .selected {
@@ -63,7 +62,7 @@ li {
   }
 
   li {
-    flex-basis: 15%; 
+    flex-basis: 16.6%; 
     font-size: 12px; 
     padding: 5px;
   }
